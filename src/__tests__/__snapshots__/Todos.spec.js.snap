@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todos should render todos correctly with an array of todos 1`] = `
+<div
+  className="todos collection"
+>
+  <div
+    className="collection-item"
+    key="1"
+  >
+    <span
+      onClick={[Function]}
+    >
+      test
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Todos should render todos list with an empty array 1`] = `
+<div
+  className="todos collection"
+>
+  <p
+    className="center"
+  >
+    You have No todo's left, Yay!
+  </p>
+</div>
+`;
