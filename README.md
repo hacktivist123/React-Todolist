@@ -14,8 +14,15 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner.<br>
+
+### `npm test:watch`
+
+Launches the test runner in an interactive watch mode
+
+### `npm test:coverage`
+
+Launches the test runner and display coverage at the end.<br>
 
 ### `npm run build`
 
