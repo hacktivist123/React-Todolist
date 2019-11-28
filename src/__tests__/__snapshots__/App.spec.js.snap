@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Page Test should delete todo 1`] = `
+<Todos
+  deleteTodo={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "isThrow": false,
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  todos={
+    Array [
+      "test",
+    ]
+  }
+>
+  <div
+    className="todos collection"
+  >
+    <div
+      className="collection-item"
+      key="0"
+    >
+      <span
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</Todos>
+`;

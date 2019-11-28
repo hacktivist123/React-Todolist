@@ -6,7 +6,7 @@ exports[`Todos should render todos correctly with an array of todos 1`] = `
 >
   <div
     className="collection-item"
-    key="1"
+    key="0"
   >
     <span
       onClick={[Function]}

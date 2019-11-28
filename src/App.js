@@ -10,12 +10,13 @@ class App extends Component {
     ]
   }
  addTodo = (todo) => {
-      todo.id = Math.random(1, 300);
+      todo.id = Math.random();
       let todos = [ ...this.state.todos, todo]
       this.setState({
         todos
       })
  }
+
   deleteTodo = (id) => {
     const todos = this.state.todos.filter( todo => {
       return todo.id !== id
@@ -27,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div className="todo-App container">
-        <h1 className=" center blue-text">Todo's</h1>
+        <h1 className=" center blue-text">Todos</h1>
         <Todos todos={ this.state.todos} deleteTodo={this.deleteTodo} />
         <AddTodo addTodo={this.addTodo} />
       </div>
